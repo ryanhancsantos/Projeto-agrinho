@@ -1,4 +1,53 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu blog tech</title>
+    <style>
+        /* Configurações Gerais */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        /* Cabeçalho Azul */
+        header {
+            background-color: #123962; /* Azul escuro do cabeçalho */
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 15px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        /* Container dos Posts */
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Estrutura de cada Post */
+        .post {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 35px;
+        }
+<!DOCTYPE html>
 
 <html lang="pt-br">
 <head>
@@ -14,4 +63,104 @@
 main {
 background-color: #FFFFFF;
 color: #183C63;
-}<div>
+}<div
+
+        /* Ícone do Livro Mágico */
+        .post-icon {
+            font-size: 40px;
+            margin-right: 20px;
+            margin-top: 5px;
+            user-select: none;
+        }
+
+        /* Conteúdo do Texto */
+        .post-content h2 {
+            color: #123962;
+            margin: 0 0 10px 0;
+            font-size: 22px;
+        }
+
+        .post-author {
+            font-weight: bold;
+            font-size: 13px;
+            margin: 0 0 12px 0;
+        }
+
+        .post-text {
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0 0 15px 0;
+            color: #444444;
+        }
+
+        /* Botões de Reação (Coração e Fogo) */
+        .reactions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-reaction {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background-color: white;
+            border: 1px solid #b0b0b0;
+            padding: 3px 8px;
+            font-family: inherit;
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        .btn-reaction:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu blog tech</h1>
+        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+    </header>
+
+    <!-- Área Principal -->
+    <main class="container">
+
+        <!-- Primeiro Post -->
+        <article class="post">
+            <div class="post-icon">📖✨</div>
+            <div class="post-content">
+                <h2>Meu primeiro post</h2>
+                <p class="post-author">Por: Marcelo Paludetto</p>
+                <p class="post-text">
+                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
+                </p>
+                <div class="reactions">
+                    <button class="btn-reaction">❤️ <span>0</span></button>
+                    <button class="btn-reaction">🔥 <span>0</span></button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Segundo Post -->
+        <article class="post">
+            <div class="post-icon">📖✨</div>
+            <div class="post-content">
+                <h2>Meu segundo post</h2>
+                <p class="post-author">Por: Marcelo Paludetto</p>
+                <p class="post-text">
+                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
+                </p>
+                <div class="reactions">
+                    <button class="btn-reaction">❤️ <span>0</span></button>
+                    <button class="btn-reaction">🔥 <span>0</span></button>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+</body>
+</html>
